@@ -1,0 +1,6 @@
+tunnel: f64fc570-6fcc-4dff-bce2-7a2478f31f7c
+
+ingress:
+  - hostname: proxy.cinemind.name.ng
+    service: http://145.239.65.119:20019
+  - service: http_status:404
